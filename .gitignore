@@ -26,27 +26,31 @@ _test
 /log*
 /bin
 /out
-/meta
-/pub
 /build
 /dist
 /etc/*.local.yml
+/etc/*.local.conf
 /etc/plugins/*.local.yml
-/etc/log/log.test.json
 /data*
 /tarball
 /run
+/vendor
+/tmp
+/pub
+/n9e
+/docker/pub
+/docker/n9e
+/docker/mysqldata
+/etc.local
 
+.alerts
 .idea
 .index
 .vscode
 .DS_Store
 .cache-loader
+.payload
+queries.active
 
 /n9e-*
 
-tmp/
-main
-Makefile
-src/modules/monapi/plugins/snmp/
-src/modules/monapi/plugins/oracle/
